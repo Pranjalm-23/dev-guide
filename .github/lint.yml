@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - dp-patch
   pull_request:
     branches:
       - main
+      - dp-patch
 
 jobs:
   lint:
