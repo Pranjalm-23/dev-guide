@@ -1,10 +1,12 @@
 # Concept Coverage Index
 
 ## Dynamic Programming:
+
 ### start
+
 - Climbing Stairs
 - Min Cost Climbing Stairs
-- House Robber 
+- House Robber
 - House Robber II
 - Longest Palindromic Substring
 - Palindromic Substrings
@@ -16,6 +18,7 @@
 - Partition Equal Subset Sum
 
 ### level^up
+
 - Unique Paths
 - Longest Common Subsequence
 - Best Time to Buy/Sell Stock with Cooldown
@@ -29,7 +32,9 @@
 - Regular Expression Matching
 
 ## Graph
+
 ### Algos
+
 - DFS using set
 - BFS using queue + hashset
 - Union Find
@@ -40,6 +45,7 @@
 - Floydd warshall
 
 ### Problems
+
 - Course Schedule
 - Course Schedule 2
 - Number of islands
@@ -63,31 +69,32 @@
 - Max area of Island
 - Reconstruct Itinerary - backtracking
 - Rotten Oranges - Multisource BFS
-- longest Incresing path in a matrix - DFS with cache 
+- longest Incresing path in a matrix - DFS with cache
 - Snakes and Ladders - BFS with visit set
 - open the lock - bfs
 - Shortest bridge - multisource bfs
 - Eventual safe state - dfs with safe cache
 
-
-
-
 ## Sliding Window
+
 ### problems
+
 - best time to buy and sell stocks
 - longest substring without repeated chars
 - Minimum window substring : have-need-window
 - Longest repeating character replacement
 - find all anagrams in a string
 - sliding window maximum - monotonic queue /deque
-- frequecy of most frequent element 
+- frequecy of most frequent element
 - minimum number of flips to make string alternating
 - permutation in a string
 - minimum size subarray sum
 - Repeated DNA sequences
 
 ## Stack
+
 ### Problems
+
 - Valid parenthesis
 - Simplify path
 - Largest rectangle in Histogram
@@ -104,12 +111,14 @@
 - Maximum Frequency Stack
 - Next Greater Element: mono decreasing stack
 - Binary Search Tree Iterator
-- Baseball Game 
+- Baseball Game
 - Remove All Adjacent Duplicates in String II
-- 132 pattern 
+- 132 pattern
 
 ## Trees
+
 ### Problems
+
 - Balanced Binary Tree
 - Count Good Nodes in a Binary tree
 - Invert Binary Tree
@@ -148,7 +157,9 @@
 - Construct String from Binary Tree
 
 ## Linked Lists
+
 ### Problems
+
 - Reorder List
 - Reverse Linked List - Iterative AND Recursive
 - Remove Linked List Elements
@@ -159,7 +170,7 @@
 - Remove Nth Node from End of List
 - Swap Nodes in Pairs
 - Reverse Nodes in K-Group
-- Sort List - Merge Sort 
+- Sort List - Merge Sort
 - Partition List - Linked List
 - Copy List with Random Pointer
 - Rotate List
@@ -169,11 +180,13 @@
 - Remove Duplicates from Sorted List
 - Intersection of Two Linked Lists
 - Intersection of Two Linked Lists
-- Design Circular Queue *
-- Insertion Sort List *
+- Design Circular Queue \*
+- Insertion Sort List \*
 
 ## Backtracking
+
 ### Problems
+
 - Word search
 - Permutations
 - Permutations II
@@ -196,7 +209,9 @@
 - N Queens II
 
 ## Binary Search
+
 ### Problems
+
 - Split array largest sum
 - binary search
 - Valid perfect Square
@@ -214,7 +229,8 @@
 - Search in rotated sorted array
 
 ## System Design Concepts:
- - Intro
+
+- Intro
 - Vertical Scaling
 - Horizontal Scaling
 - Load Balancers (Reverse Proxy)
@@ -240,16 +256,20 @@
 - webworkers
 
 ## Design Patterns
+
 ### Creational
+
 - Factory
 - Builder
 - Singleton
 
 ### Behavioral
+
 - Observer / Pub-Sub
 - Iterator
 - strategy
 
 ### Structural
+
 - Adapters
 - Facade
