@@ -46,15 +46,16 @@
 
 ### Problems
 
-- Course Schedule
-- Course Schedule 2
-- Number of islands
-- clone graph
-- word ladder
-- pacifi atlantic water flow
-- network delay time
-- word search
-- word search 2
+- Course Schedule - dfs
+- Course Schedule 2 - postorder:dfs
+- Number of islands - dfs/ bfs
+- clone graph- bfs
+- word ladder - bfs
+- pacifi atlantic water flow - dfs >bfs
+- network delay time - bfs using PQ (Dijkstras algo)
+- word search - dfs
+- word search 2 - dfs + trie
+ TODO:
 - island perimeter
 - REORDER ROUTES TO MAKE ALL PATHS LEAD TO THE CITY ZERO
 - Redundant connection
