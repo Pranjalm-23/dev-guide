@@ -213,7 +213,7 @@
 
 ### Problems
 
-- Split array largest sum
+- Split array largest sum - possible range binary search
 - binary search
 - Valid perfect Square
 - arranging coins
@@ -225,7 +225,7 @@
 - Maximum Number of Removable Characters
 - Koko eating bananaa
 - first and last position of element in sorted array
-- Median of two sorted arrays
+- Median of two sorted arrays part1 and part2 analysis
 - Search insert position
 - Search in rotated sorted array
 
