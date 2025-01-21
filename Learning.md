@@ -55,7 +55,7 @@
 - network delay time - bfs using PQ (Dijkstras algo)
 - word search - dfs
 - word search 2 - dfs + trie
- TODO:
+  TODO:
 - island perimeter
 - REORDER ROUTES TO MAKE ALL PATHS LEAD TO THE CITY ZERO
 - Redundant connection
@@ -188,24 +188,24 @@
 
 ### Problems
 
-- Word search
-- Permutations
-- Permutations II
-- Subsets
-- Palindrome Partitioning
-- Letter Combinations of a Phone Number
-- Splitting a String Into Descending Consecutive Values
+- Word search - dfs
+- Permutations - dfs
+- Permutations II - dfs - reduced by duplicate check
+- Subsets - dfs use and not
+- Palindrome Partitioning -dfs with Palindrome check
+- Letter Combinations of a Phone Number - just append the mappings
+- Splitting a String Into Descending Consecutive Values -just check and go ahead
 - Combination Sum
 - Word search II
 - N - Queens
 - Combination Sum II
 - Find Unique Binary String
 - Combinations
-- Maximum Length of a Concatenated String with Unique Characters
+- Maximum Length of a Concatenated String with Unique Characters - dfs + check overlap
 - Restore IP Addresses
-- Partition to K Equal Sum Subsets
+- Partition to K Equal Sum Subsets - dfs<k, sum>
 - Matchsticks to Square
-- Reconstruct Itinerary - dfs
+- Reconstruct Itinerary - dfs + pq + backtrack
 - Subsets II - Backtracking
 - N Queens II
 
