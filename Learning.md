@@ -97,24 +97,24 @@
 ### Problems
 
 - Valid parenthesis
-- Simplify path
-- Largest rectangle in Histogram
-- Generate Parenthesis
+- Simplify path - cases
+- Largest rectangle in Histogram - mono increasing stack
+- Generate Parenthesis - java stringbuilder works best, for python se is great
 - Design Min Stack
-- Daily Temperatures - Monotonic stack
+- Daily Temperatures - Monotonic decreasing stack
 - Asteroid collision
 - Maximum Subarray Min-Product - Monotonic Increasing Stack
-- Car Fleet
+- Car Fleet - reverse iterate and check if can catch
 - Implement Stack using Queues
 - Online Stock Span
 - Evaluate Reverse Polish Notation
 - Remove k digits
 - Maximum Frequency Stack
-- Next Greater Element: mono decreasing stack
+- Next Greater Element I: mono decreasing stack
 - Binary Search Tree Iterator
 - Baseball Game
 - Remove All Adjacent Duplicates in String II
-- 132 pattern
+- 132 pattern - mono decresing stack
 
 ## Trees
 
