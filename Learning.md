@@ -180,7 +180,6 @@
 - Reverse Linked List II
 - Remove Duplicates from Sorted List
 - Intersection of Two Linked Lists
-- Intersection of Two Linked Lists
 - Design Circular Queue \*
 - Insertion Sort List \*
 
