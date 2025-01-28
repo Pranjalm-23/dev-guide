@@ -151,7 +151,7 @@
 - Trim a Binary Search Tree
 - Path Sum
 - Word Search II - Backtracking Trie
-- Iterative & Recursive - Binary Tree Inorder Traversal
+- Binary Tree Inorder Traversal - Iterative & Recursive
 - Binary Search Tree Iterator
 - Populating Next Right Pointers in Each Node - crr & nxt
 - Convert BST to Greater Tree - inorder from right
