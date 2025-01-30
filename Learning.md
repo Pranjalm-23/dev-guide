@@ -230,12 +230,22 @@
 
 ## System Design Concepts:
 
-- Intro
+### Good Design
+
+- Scalability
+- Maintainability
+- Efficiency
+- Reliability
+
+- CAP Theorem/ Brewer's Theorem
+
+### Concepts
+
 - Vertical Scaling
 - Horizontal Scaling
 - Load Balancers (Reverse Proxy)
 - Content Delivery Networks
-- Caching
+- Caching L1,L2,L3
 - IP Address
 - TCP / IP
 - IP Address
@@ -245,13 +255,13 @@
 - GraphQL
 - gRPC
 - WebSockets
-- SQL
-- ACID
+- SQL (B-trees, sql query)
+- ACID (Atomicity, consistency,Isolation, durability) -- RDBMS
 - NoSQL
 - Sharding
-- Replication
-- CAP Theorem
-- Message Queues
+- Replication (Leader-follower(read only), leader-leader)
+- CAP Theorem(Consistency, Availability, Patition--network)
+- Message Queues(if getting more data than it can process)
 - browser can run WASM generated from c, cpp, java
 - webworkers
 
@@ -259,17 +269,21 @@
 
 ### Creational
 
-- Factory
-- Builder
-- Singleton
+- Factory - tell what kind of instatnce we want by using appropriate facotry method(can't control things inside the method)
+- Builder - instatiate -> Individual method for each value we want-> build
+- Singleton - can only have single instance(static method) -- shared source , instatiated only once of truth
+- prototype -
 
 ### Behavioral
 
-- Observer / Pub-Sub
-- Iterator
-- strategy
+- **Observer / Pub-Sub**: eg-notification/to the list of subscribers -- push based
+- **Iterator**: (next?) - pull based
+- **strategy** - (open-closed principal, open- for extension, closed for modification) .filter(strategy)
+- mediator - many to many/ traffic corrdination
+- state - behaviour based on state
 
 ### Structural
 
-- Adapters
-- Facade
+- **Adapters** - overriding to work with differnt type/ connector=> works/compatible
+- **Facade** - wrapper class to abstract
+- proxy
