@@ -96,24 +96,24 @@
 ### Problems
 
 - Valid parenthesis
-- Simplify path
-- Largest rectangle in Histogram
-- Generate Parenthesis
+- Simplify path - cases
+- Largest rectangle in Histogram - mono increasing stack
+- Generate Parenthesis - java stringbuilder works best, for python se is great
 - Design Min Stack
-- Daily Temperatures - Monotonic stack
+- Daily Temperatures - Monotonic decreasing stack
 - Asteroid collision
 - Maximum Subarray Min-Product - Monotonic Increasing Stack
-- Car Fleet
+- Car Fleet - reverse iterate and check if can catch
 - Implement Stack using Queues
 - Online Stock Span
 - Evaluate Reverse Polish Notation
 - Remove k digits
 - Maximum Frequency Stack
-- Next Greater Element: mono decreasing stack
+- Next Greater Element I: mono decreasing stack
 - Binary Search Tree Iterator
 - Baseball Game
 - Remove All Adjacent Duplicates in String II
-- 132 pattern
+- 132 pattern - mono decresing stack
 
 ## Trees
 
@@ -150,7 +150,7 @@
 - Trim a Binary Search Tree
 - Path Sum
 - Word Search II - Backtracking Trie
-- Iterative & Recursive - Binary Tree Inorder Traversal
+- Binary Tree Inorder Traversal - Iterative & Recursive
 - Binary Search Tree Iterator
 - Populating Next Right Pointers in Each Node - crr & nxt
 - Convert BST to Greater Tree - inorder from right
@@ -179,7 +179,6 @@
 - Reverse Linked List II
 - Remove Duplicates from Sorted List
 - Intersection of Two Linked Lists
-- Intersection of Two Linked Lists
 - Design Circular Queue \*
 - Insertion Sort List \*
 
@@ -187,24 +186,24 @@
 
 ### Problems
 
-- Word search
-- Permutations
-- Permutations II
-- Subsets
-- Palindrome Partitioning
-- Letter Combinations of a Phone Number
-- Splitting a String Into Descending Consecutive Values
+- Word search - dfs
+- Permutations - dfs
+- Permutations II - dfs - reduced by duplicate check
+- Subsets - dfs use and not
+- Palindrome Partitioning -dfs with Palindrome check
+- Letter Combinations of a Phone Number - just append the mappings
+- Splitting a String Into Descending Consecutive Values -just check and go ahead
 - Combination Sum
 - Word search II
 - N - Queens
 - Combination Sum II
 - Find Unique Binary String
 - Combinations
-- Maximum Length of a Concatenated String with Unique Characters
+- Maximum Length of a Concatenated String with Unique Characters - dfs + check overlap
 - Restore IP Addresses
-- Partition to K Equal Sum Subsets
+- Partition to K Equal Sum Subsets - dfs<k, sum>
 - Matchsticks to Square
-- Reconstruct Itinerary - dfs
+- Reconstruct Itinerary - dfs + pq + backtrack
 - Subsets II - Backtracking
 - N Queens II
 
@@ -212,7 +211,7 @@
 
 ### Problems
 
-- Split array largest sum
+- Split array largest sum - possible range binary search
 - binary search
 - Valid perfect Square
 - arranging coins
@@ -224,18 +223,28 @@
 - Maximum Number of Removable Characters
 - Koko eating bananaa
 - first and last position of element in sorted array
-- Median of two sorted arrays
+- Median of two sorted arrays part1 and part2 analysis
 - Search insert position
 - Search in rotated sorted array
 
 ## System Design Concepts:
 
-- Intro
+### Good Design
+
+- Scalability
+- Maintainability
+- Efficiency
+- Reliability
+
+- CAP Theorem/ Brewer's Theorem
+
+### Concepts
+
 - Vertical Scaling
 - Horizontal Scaling
 - Load Balancers (Reverse Proxy)
 - Content Delivery Networks
-- Caching
+- Caching L1,L2,L3
 - IP Address
 - TCP / IP
 - IP Address
@@ -245,13 +254,13 @@
 - GraphQL
 - gRPC
 - WebSockets
-- SQL
-- ACID
+- SQL (B-trees, sql query)
+- ACID (Atomicity, consistency,Isolation, durability) -- RDBMS
 - NoSQL
 - Sharding
-- Replication
-- CAP Theorem
-- Message Queues
+- Replication (Leader-follower(read only), leader-leader)
+- CAP Theorem(Consistency, Availability, Patition--network)
+- Message Queues(if getting more data than it can process)
 - browser can run WASM generated from c, cpp, java
 - webworkers
 
@@ -259,17 +268,21 @@
 
 ### Creational
 
-- Factory
-- Builder
-- Singleton
+- Factory - tell what kind of instatnce we want by using appropriate facotry method(can't control things inside the method)
+- Builder - instatiate -> Individual method for each value we want-> build
+- Singleton - can only have single instance(static method) -- shared source , instatiated only once of truth
+- prototype -
 
 ### Behavioral
 
-- Observer / Pub-Sub
-- Iterator
-- strategy
+- **Observer / Pub-Sub**: eg-notification/to the list of subscribers -- push based
+- **Iterator**: (next?) - pull based
+- **strategy** - (open-closed principal, open- for extension, closed for modification) .filter(strategy)
+- mediator - many to many/ traffic corrdination
+- state - behaviour based on state
 
 ### Structural
 
-- Adapters
-- Facade
+- **Adapters** - overriding to work with differnt type/ connector=> works/compatible
+- **Facade** - wrapper class to abstract
+- proxy
